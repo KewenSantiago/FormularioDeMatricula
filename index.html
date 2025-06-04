@@ -91,15 +91,15 @@
             </div>
 
             <div class="flex">
-            <div class="input-wrapper flex-2">
-              <label for="street">Rua</label>
-              <input type="text" id="street" name="street" value="Rua das Flores" disabled>
-            </div>
+              <div class="input-wrapper flex-2">
+                <label for="street">Rua</label>
+                <input type="text" id="street" name="street" value="Rua das Flores" disabled>
+              </div>
 
-            <div class="input-wrapper flex-1">
-              <label for="number">Número</label>
-              <input type="number" id="number" name="number">
-            </div>
+              <div class="input-wrapper flex-1">
+                <label for="number">Número</label>
+                <input type="number" id="number" name="number">
+              </div>
             </div>
 
             <div class="flex">
@@ -134,29 +134,54 @@
               <input type="email" id="mail" name="mail" required>
               <div class="error">
                 <img src="assets/icons/alert-circle.svg" alt="error">
-                <span>Insira ume-mail válido</span>
+                <span>Insira um e-mail válido</span>
               </div>
             </div>
           </fieldset>
-        </form>
-      </div>
-    </main>
 
-    <aside>
-      <div class="aside container">
-        <header>
-          <img src="/assets/image/logo.svg" alt="Logo">
-          <h2>
-            Porque cada momento de <span>aprendizado</span> conta
-          </h2>
-          <p>
-            Inscreva seu filho em nossa escola e veja-o florescer em um ambiente acolhedor, seguro e estimulante.
-          </p>
-        </header>
+          <fieldset class="enroll-option">
+            <legend>Opções de matrícula</legend>
 
-        <img id="kids" src="assets/image/pana.svg" alt="Crianças reunidas">
+            <div class="input-wrapper">
+              <label Selecione o turno de estudo></label>
+
+              <div class="radio-wrapper">
+                <div class="radio-inner">
+                  <div class="radio-image"></div>
+                  <input type="radio" name="study-shift" value="morning" id="morning">
+                  <img src="assets/icons/sun-cloud-02.svg" alt="ícone de sol com nuvem">
+                  <label for="morning">Manhã</label>
+                </div>
+
+                <div class="radio-inner">
+                  <div class="radio-image"></div>
+                  <input type="radio" name="study-shift" value="evening" id="evening">
+                  <img src="assets/icons/sun-02.svg" alt="ícone de sol com nuvem">
+                  <label for="evening">Tarde</label>
+                </div>
+              </div>
+            </div>
       </div>
-    </aside>
+      </fieldset>
+      </form>
+  </div>
+  </main>
+
+  <aside>
+    <div class="aside container">
+      <header>
+        <img src="/assets/image/logo.svg" alt="Logo">
+        <h2>
+          Porque cada momento de <span>aprendizado</span> conta
+        </h2>
+        <p>
+          Inscreva seu filho em nossa escola e veja-o florescer em um ambiente acolhedor, seguro e estimulante.
+        </p>
+      </header>
+
+      <img id="kids" src="assets/image/pana.svg" alt="Crianças reunidas">
+    </div>
+  </aside>
   </div>
 </body>
 
